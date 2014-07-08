@@ -1,6 +1,6 @@
 # CollectPlus
 
-TODO: Write a gem description
+A simple gem to retrieve the status of parcels sent via [CollectPlus](http://collectplus.co.uk).
 
 ## Installation
 
@@ -20,10 +20,3 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/collect_plus/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
