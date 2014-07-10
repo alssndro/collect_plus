@@ -27,7 +27,7 @@ describe CollectPlus::Tracker do
   end
 
   context "when the tracking number does not exists" do
-    before(:all) do      
+    before(:each) do      
       # Stub net requests with HTML files in spec's support directory
       WebMock.stub_request(:get, "https://www.collectplus.co.uk/track/NOTATRACKINGNUMBER").
         to_return(:status => 200, :body => File.new("spec/support/parcel_doesnt_exist.html"), :headers => {})
