@@ -1,4 +1,4 @@
-# CollectPlus
+# collect_plus
 
 A simple gem to retrieve the status of parcels sent via [CollectPlus](http://collectplus.co.uk).
 
