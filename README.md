@@ -37,7 +37,7 @@ tracker.status_history
 "Received at SPAR, LDN - 08:21, Mon, 07 Jul 2014", 
 "Delivery booked - 13:25, Sun, 06 Jul 2014"]
 
-# Get a print-friendly summary of all tracking statues so far
+# Get a print-friendly summary of all tracking statuses so far
 puts tracker.status_summary
 => CURRENT STATUS
 Loaded onto VAN - 06:35, Wed, 09 Jul 2014
